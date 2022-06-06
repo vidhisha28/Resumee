@@ -1,0 +1,125 @@
+
+.top {
+    background-color: #E4F9F5;
+    height: 300px;
+
+    padding-top: 100px;
+    position: relative;
+}
+body{
+    text-align: center;
+    background-color: #E4F9F5;
+    font-family: 'Merriweather' ,  sans-serif;
+}
+h1{
+
+    margin-top: 0 ;
+    font-family: 'Sacramento' , cursive;
+    font-size: 400%;
+    color: #66BFBF;
+    
+    
+}
+h2{
+    font-family: 'Montserrat' , sans-serif;
+    color: black;
+
+}
+h3{
+    font-family: 'Montserrat' , sans-serif;
+    color: black;
+
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.pp{
+    border-radius: 100%;
+    max-width: 200px;
+    height: 200px;
+}
+.codergirl{
+
+}
+hr {
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+
+
+}
+.typewriter h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      position: relative;
+      color: #66BFBF;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  .contact-me{
+      background-color: #86C6F4;
+  }
+  .bottom-container{
+    background-color: #86C6F4;
+  }
+/*
+.text{
+    display: inline-flex;
+}
+.text .static-txt{
+    color:#FC6D6D ;
+    font-size: 60px;
+    font-weight: 400;
+}
+.text .dynamic-txts{
+    margin-left: 15px ;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.dynamic-txts span{
+    position:relative;
+}
+.dynamic-txts li{
+    color: #FC6D6D;
+    list-style: none;
+    font: size 60px;
+    font-weight: 500;
+    position:relative;
+    top:0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+*/
